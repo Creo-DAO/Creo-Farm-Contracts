@@ -1,0 +1,21 @@
+{
+  "name": "creo-farm-contracts",
+  "version": "1.0.0",
+  "description": "Creo staking pool contracts.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lanre Popson",
+  "license": "ISC"
+}

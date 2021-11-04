@@ -1,0 +1,20 @@
+# Dependency directory
+node_modules
+client/
+
+# local env variables
+.env
+
+# truffle build directory and migrations
+build/
+migrations/
+
+# personal helper files
+sign.js
+
+# macOS
+.DS_Store
+.vscode-test
+
+# truffle
+.node-xmlhttprequest-*
