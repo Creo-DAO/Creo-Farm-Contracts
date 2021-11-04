@@ -782,6 +782,7 @@ contract LpCreoFarm is Ownable {
         uint256 apr = _calculateApr();    
         uint256 hourlyInterest = apr.div(8736).div(100); 
         uint256 yield = stakingBalance[user].mul(hourlyInterest).mul(hoursStaked).div(10**18);
+        return yield
     } 
 
     function _sendRewards(address user) private {
